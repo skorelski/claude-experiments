@@ -1,0 +1,32 @@
+{
+  "agent_name": "ppm-monthly",
+  "agent_purpose": "monthly budget tracking",
+  "agent_owner": "Digital department",
+  "agent_model": "local LLM",
+  "agent_assessment_score": 4.6,
+  "agent_assessment_status": "AMBER",
+  "agent_data_sensitivity": "Internal",
+  "agent_oversight_model": "Human-on-the-loop",
+  "agent_context_size": "small",
+  "agent_token_budget": "undefined",
+  "agent_cost_alert_usd": "undefined",
+  "logging_events": {
+    "agent_start": "ppm-monthly.start",
+    "agent_stop": "ppm-monthly.stop",
+    "agent_error": "ppm-monthly.error",
+    "agent_escalation": "ppm-monthly.escalation",
+    "tokens_used": "ppm-monthly.tokens_used",
+    "agent_fallback": "ppm-monthly.fallback",
+    "agent_cost": "ppm-monthly.cost"
+  },
+  "section_scores": {
+    "purpose": 10,
+    "tasks": 8,
+    "context": 8,
+    "data_sensitivity": 3,
+    "human_oversight": 3,
+    "error_handling": 0,
+    "scope_boundaries": 2,
+    "finops": 0
+  }
+}
