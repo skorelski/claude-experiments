@@ -9,3 +9,4 @@ data/raw/
 *.bin
 *.safetensors
 chroma_db/
+.DS_Store
